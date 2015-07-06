@@ -1,0 +1,96 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\000033}}
+body {
+  background-color: #F6F5F5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\000037}}
+#todo-container {
+  background-color: white;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000314}}
+#todo-container .title-div {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000322}}
+#todo-container form {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000328}}
+#todo-container form input[type="text"] {
+  width: 275px;
+  border: 0px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000333}}
+#todo-container form input[type="text"]:focus {
+  outline: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000336}}
+#todo-container form input[type="submit"] {
+  width: 120px;
+  background-color: #00aeef;
+  border: 1px solid #00aeef;
+  font-weight: bold;
+  color: #454545;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000346}}
+#todo-container .list-div {
+  min-height: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000348}}
+#todo-container .list-div li {
+  cursor: pointer;
+  border: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000351}}
+#todo-container .list-div li .item-inactive {
+  text-decoration: line-through;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000354}}
+#todo-container .list-div li img {
+  float: right;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000361}}
+#todo-container .list-div li:hover img {
+  float: right;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000366}}
+#todo-container .list-div .gray {
+  background: #f4f7fa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000369}}
+#todo-container .list-div span {
+  padding-left: 5px;
+  position: relative;
+  top: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000375}}
+#todo-container .footer-div {
+  height: 50px;
+  padding: 10px;
+  padding-top: 0px;
+  border-top: 1px solid #ebebeb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000381}}
+#todo-container .footer-div span {
+  color: gray;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/wockan\/dev\/pythonenv\/dev\/tictail-todo-test\/frontapp\/styles\/main\.scss}line{font-family:\0000384}}
+#todo-container .footer-div a {
+  float: right;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/styles/main.css" rel="stylesheet">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://fb.me/react-0.13.3.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+
+    <title></title>
+  </head>
+  <body>
+    <div id="todo-container">
+      <div class="title-div">
+        <span>Todos</span>
+      </div>
+      <form class="" method="post">
+        <input type="text"  name="title" value="" placeholder="What needs to be done?">
+        <input type="submit" class="btn btn-primary" name="add" value="Add Todo">
+      </form>
+      <div class="list-div">
+        <ul class="list-group">
+          <li class="list-group-item">
+          <input type="checkbox" name="done" value="">
+            <span>bla</span>
+          </li>
+          <li class="list-group-item gray">
+          <input type="checkbox" name="done" value="">
+            <span>Discuss</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-div">
+        <span>0</span>
+        <span>items left</span>
+        <a href="#">Mark all as complete</a>
+      </div>
+    </div>
+  </body>
+  <script src="/scripts/sortable.js"></script>
+  <script src="/scripts/react-sortable-mixin.js"></script>
+  <script src="/scripts/app.js"></script>
+  <script src="/scripts/classnames.js"></script>
+
+</html>

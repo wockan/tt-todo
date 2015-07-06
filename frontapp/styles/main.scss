@@ -1,0 +1,88 @@
+
+
+body {
+  background-color: #F6F5F5;
+}
+
+#todo-container {
+  background-color: white;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+
+  .title-div {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #ebebeb;
+  }
+
+  form {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    input[type="text"] {
+        width: 275px;
+        border: 0px;
+        margin-right: 10px;
+    }
+    input[type="text"]:focus {
+      outline: 0;
+    }
+    input[type="submit"] {
+        width: 120px;
+        background-color: #00aeef;
+        border: 1px solid #00aeef;
+        font-weight: bold;
+        color: #454545;
+        font-size: 12px;
+    }
+  }
+
+  .list-div {
+    min-height: 150px;
+    li {
+      cursor: pointer;
+      border: 0px;
+      .item-inactive {
+        text-decoration: line-through;
+      }
+      img {
+        float: right;
+        display: none;
+      }
+    }
+    li:hover {
+
+      img {
+        float: right;
+        display: block;
+      }
+    }
+    .gray {
+      background: #f4f7fa;
+    }
+    span {
+      padding-left: 5px;
+      position: relative;
+      top: -2px;
+    }
+  }
+  .footer-div {
+    height: 50px;
+    padding: 10px;
+    padding-top: 0px;
+    border-top: 1px solid #ebebeb;
+
+    span {
+      color:gray;
+    }
+    a {
+      float: right;
+    }
+  }
+}

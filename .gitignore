@@ -58,3 +58,7 @@ target/
 
 # Node - Grunt
 node_modules
+
+
+# sass cache
+.sass-cache

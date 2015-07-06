@@ -1,0 +1,19 @@
+{
+  "name": "tictail-todo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-react": "^0.12.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-compass": "^0.7.2",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
