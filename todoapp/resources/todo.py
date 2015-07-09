@@ -38,13 +38,13 @@ class TodoView(Resource):
     def get(self, id):
         todo = datastore.getById(int(id))
         if todo is None:
-            return 404, 404
+            return '404', 404
         return jsonify(data=todo.serialize())
 
     def put(self, id):
         todo = datastore.getById(int(id))
         if todo is None:
-            return 404, 404
+            return '404', 404
 
         #Update the object
         args = self.reqparse.parse_args()
