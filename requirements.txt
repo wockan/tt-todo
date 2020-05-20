@@ -18,7 +18,7 @@ Flask-Cors==2.0.1
 Flask-REST==1.1
 Flask-RESTful==0.3.3
 html5lib==0.999
-httplib2==0.8
+httplib2==0.18.0
 itsdangerous==0.24
 Jinja2==2.7.3
 lockfile==0.8
